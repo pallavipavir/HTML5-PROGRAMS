@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> HTML-5</title>
+    </head>
+    <body>
+        center>
+        <h1>SEMANTIC ELEMENTS..!</h1>
+        <p><b>In any language, it is essential to understand the meaning of words
+            during communication.
+        </b></p>
+
+        <h2>why to use semantic element?</h2>
+        <p>In HTML4, developers have  to use their own id names to style
+            element: header, top, bottom, footer, menu, navigation, main, container,
+            content, afticle, sidebar, top, nav, etc.
+        </p>
+    </center>
+    <hr>
+    
+    <center>
+        <h3>DETAILS TAG</h3>
+        <p>this tag is used to specify the additional details on the web page
+            that the user can view or hide on demand.
+        </p>
+    </center>
+    <hr>
+
+    <details>
+        <h1>HTML</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus quae eaque eum. Esse culpa, quos porro in cumque iste qui incidunt exercitationem ratione eum sequi optio laboriosam sunt? Aperiam, quam?</p>
+    </details>
+    <details>
+        <h1>CSS</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iste accusantium repellendus eos quia, ut omnis amet cupiditate. Tempore nihil non porro cum et facilis iusto sed delectus nostrum dicta.</P>
+    </details>
+    <hr>
+
+    <center>
+        <h3>This is a SUMMARY TAG</h3>
+        <p>The <b>HTML SUMMARY</b>tag is used with<b>DETAILS</b>tag.</p>
+    </center>
+    <hr>
+    <details>
+        <summary>HTML</summary>
+        <h1>HTML</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti fugit molestias quia, modi rerum eius harum quibusdam suscipit totam nam sint, maxime in delectus architecto obcaecati aperiam, error ipsa laudantium!</p>
+    </details>
+    <details>
+        <summary>CSS</summary>
+        <h1>CSS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure perspiciatis veniam nulla? At consectetur libero veniam nam? Quidem dolorem, illum modi magni, eius totam nisi adipisci dignissimos quam optio eveniet.</p>
+    </details>
+    <details>
+        <summary>JS</summary>
+        <h1>JS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi quia dolorem laudantium, sint, tenetur itaque nulla incidunt accusamus ipsa numquam. Tempora odio provident aut pariatur tenetur praesentium nisi asperiores.</p>
+    </details>
+    <hr>
+
+    <center>
+        <h3>TIME TAG..!</h3>
+        <p><b>HTML time</b>tag is used to defines date and time.
+    </center>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus at, quae, voluptas provident laudantium necessitatibus ratione natus vero reiciendis sit ex omnis facere? Fugiat, doloremque possimus. Accusamus, non cum.<time>09:30</time></p>
+    <hr>
+
+    <center>
+        <h3>DIALOG TAG</h3>
+        <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sequi velit enim reiciendis. Ipsum fugiat magni architecto provident deserunt non in cupiditate quisquam quae. Nesciunt perferendis modi quibusdam natus reiciendis!</b></p>
+    </center>
+    <dialog id="data">
+
+        <button type="button" id="btn2">&times;</button>
+        <h1>HI DIALOG</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum magni obcaecati dolore suscipit quaerat vel at, dicta sunt! Vitae ut illo esse ex consequatur libero officiis qui error asperiores blanditiis?</p>
+    </dialog>
+
+    <button type="button" id="btn1">OPEN DIALOG</button>
+    <script>
+        document.getElementById("btn1").onclick = function(){
+            document.getElementById("data").show();
+        };
+        document.getElementById("btn2").onclick = function(){
+            document.getElementById("data").close();
+        };
+        
+    </script>
+    </body>
+</html>
